@@ -1,0 +1,42 @@
+{
+    "providers": [
+        {
+            "id": 1,
+            "name": "Bob",
+            "facility_name": "Evergreen Health",
+            "zip_code": 98683,
+            "lat": 74.1121,
+            "lon": 123.4142
+        },
+        {
+            "id": 2,
+            "name": "Craig",
+            "facility_name": "Camas Dental",
+            "zip_code": 98607,
+            "lat": 74.11112,
+            "lon": 123.4144412
+        }
+    ],
+    "claims": [
+        {
+            "id": 1,
+            "provider_id": 2,
+            "patient_hash": "SGVsbG8gV29ybGQ=",
+            "diagnosis_codes": [
+                "hello",
+                "goodbye",
+                "testing",
+                "test"
+            ]
+        },
+        {
+            "id": 2,
+            "provider_id": 1,
+            "patient_hash": "SGVsbG8gV29ybGQ=",
+            "diagnosis_codes": [
+                "hello",
+                "test"
+            ]
+        }
+    ]
+}
